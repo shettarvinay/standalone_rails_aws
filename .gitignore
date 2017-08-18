@@ -1,0 +1,8 @@
+.DS_Store
+blog_test
+deploy_script.txt
+docker/
+ecs-cluster.template
+ecs-jenkins-demo.template
+jenkins_creation.txt
+taskdef.json
