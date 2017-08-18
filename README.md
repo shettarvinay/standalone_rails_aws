@@ -26,3 +26,5 @@ Things you may want to cover:
 * ..Checking deployment
 
 * ..added task def
+
+* ..updated uri
