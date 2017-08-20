@@ -5,4 +5,4 @@ docker/
 ecs-cluster.template
 ecs-jenkins-demo.template
 jenkins_creation.txt
-taskdef.json
+deploy_script.txt
