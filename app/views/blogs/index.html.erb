@@ -1,34 +1,26 @@
 <p id="notice"><%= notice %></p>
-
-<h1>BLOGS...Good job... </h1>
-<h2>ALB JENKINS  AWS DEPLOYMENT DONE.. </h2>
-<h3>GIT DOCKER</h3>
-<h4>ECS ECR WITH COMPLETE AUTOMATION</h4>
-
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Description</th>
-      <th>User</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @blogs.each do |blog| %>
-      <tr>
-        <td><%= blog.name %></td>
-        <td><%= blog.description %></td>
-        <td><%= blog.user_id %></td>
-        <td><%= link_to 'Show', blog %></td>
-        <td><%= link_to 'Edit', edit_blog_path(blog) %></td>
-        <td><%= link_to 'Destroy', blog, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'New Blog', new_blog_path %>
+<div>
+  <ol>
+    <h1>Tech Items</h1>
+    <li> Rails</li>
+    <li> Docker</li>
+    <li> Jenkins</li>
+    <li> Github</li>
+    <li> AWS, ECS and ECR
+      <ol>
+        <li> Cluster</li>
+        <li> Services</li>
+        <li> Tasks & task definition</li>
+        <li> Cloud formation template</li>
+      </ol>
+    </li>
+    <li> Application load balancer
+      <ol>
+        <li> Load balancer</li>
+        <li> Routing</li>
+        <li> Target group</li>
+        <li>Registering and deregestring of ecs instances</li>
+      </ol>
+    </li>
+  </ol>
+</div>
